@@ -29,10 +29,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
-    <Compile Include="DjangoProject\__init__.py" />
-    <Compile Include="DjangoProject\settings.py" />
-    <Compile Include="DjangoProject\urls.py" />
-    <Compile Include="DjangoProject\wsgi.py" />
+    <Compile Include="mysite\settings.py" />
+    <Compile Include="mysite\urls.py" />
+    <Compile Include="mysite\wsgi.py" />
+    <Compile Include="mysite\__init__.py" />
+    <Compile Include="polls\admin.py" />
+    <Compile Include="polls\models.py" />
+    <Compile Include="polls\tests.py" />
+    <Compile Include="polls\views.py" />
+    <Compile Include="polls\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <WebPiReference Include="https://www.microsoft.com/web/webpi/3.0/toolsproductlist.xml%3fDjango">
@@ -45,6 +50,25 @@
       <ProductId>Python27</ProductId>
       <FriendlyName>Python 2.7</FriendlyName>
     </WebPiReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mysite\" />
+    <Folder Include="mysite\__pycache__\" />
+    <Folder Include="mytemplates\" />
+    <Folder Include="mytemplates\admin\" />
+    <Folder Include="polls\" />
+    <Folder Include="polls\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mysite\__pycache__\settings.cpython-34.pyc" />
+    <Content Include="mysite\__pycache__\urls.cpython-34.pyc" />
+    <Content Include="mysite\__pycache__\wsgi.cpython-34.pyc" />
+    <Content Include="mysite\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="mytemplates\admin\base_site.html" />
+    <Content Include="mytemplates\admin\index.html" />
+    <Content Include="polls\__pycache__\admin.cpython-34.pyc" />
+    <Content Include="polls\__pycache__\models.cpython-34.pyc" />
+    <Content Include="polls\__pycache__\__init__.cpython-34.pyc" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>

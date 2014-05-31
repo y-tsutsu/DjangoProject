@@ -64,6 +64,7 @@
     <Content Include="mysite\__pycache__\urls.cpython-34.pyc" />
     <Content Include="mysite\__pycache__\wsgi.cpython-34.pyc" />
     <Content Include="mysite\__pycache__\__init__.cpython-34.pyc" />
+    <Content Include="mytemplates\admin\base.html" />
     <Content Include="mytemplates\admin\base_site.html" />
     <Content Include="mytemplates\admin\index.html" />
     <Content Include="polls\__pycache__\admin.cpython-34.pyc" />

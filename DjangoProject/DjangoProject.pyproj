@@ -36,6 +36,7 @@
     <Compile Include="polls\admin.py" />
     <Compile Include="polls\models.py" />
     <Compile Include="polls\tests.py" />
+    <Compile Include="polls\urls.py" />
     <Compile Include="polls\views.py" />
     <Compile Include="polls\__init__.py" />
   </ItemGroup>
@@ -56,6 +57,7 @@
     <Folder Include="mysite\__pycache__\" />
     <Folder Include="mytemplates\" />
     <Folder Include="mytemplates\admin\" />
+    <Folder Include="mytemplates\polls\" />
     <Folder Include="polls\" />
     <Folder Include="polls\__pycache__\" />
   </ItemGroup>
@@ -67,6 +69,8 @@
     <Content Include="mytemplates\admin\base.html" />
     <Content Include="mytemplates\admin\base_site.html" />
     <Content Include="mytemplates\admin\index.html" />
+    <Content Include="mytemplates\polls\detail.html" />
+    <Content Include="mytemplates\polls\index.html" />
     <Content Include="polls\__pycache__\admin.cpython-34.pyc" />
     <Content Include="polls\__pycache__\models.cpython-34.pyc" />
     <Content Include="polls\__pycache__\__init__.cpython-34.pyc" />

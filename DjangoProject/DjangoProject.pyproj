@@ -71,6 +71,7 @@
     <Content Include="mytemplates\admin\index.html" />
     <Content Include="mytemplates\polls\detail.html" />
     <Content Include="mytemplates\polls\index.html" />
+    <Content Include="mytemplates\polls\results.html" />
     <Content Include="polls\__pycache__\admin.cpython-34.pyc" />
     <Content Include="polls\__pycache__\models.cpython-34.pyc" />
     <Content Include="polls\__pycache__\__init__.cpython-34.pyc" />

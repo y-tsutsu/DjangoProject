@@ -1,4 +1,6 @@
-﻿{% if latest_poll_list %}
+﻿<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+{% if latest_poll_list %}
     <ul>
     {% for poll in latest_poll_list %}
         <li><a href="/polls/{{ poll.id }}/">{{ poll.question }}</a></li>
